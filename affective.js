@@ -94,6 +94,8 @@ detector.addEventListener( "onImageResultsSuccess", function( faces, image, time
     } ) );
     log( '#results', "Emoji: " + faces[ 0 ].emojis.dominantEmoji );
     drawFeaturePoints( image, faces[ 0 ].featurePoints );
+
+    console.log( faces[ 0 ].emotions.disgust );
   }
 } );
 
