@@ -15,7 +15,7 @@ detector.detectAllAppearance();
 
 //Add a callback to notify when the detector is initialized and ready for runing.
 detector.addEventListener( "onInitializeSuccess", function() {
-  log( '#logs', "The detector reports initialized" );
+  // log( '#logs', "The detector reports initialized" );
   //Display canvas instead of video feed because we want to draw the feature points on it
 
 
@@ -33,7 +33,7 @@ function onStart() {
     $( "#logs" ).html( "" );
     detector.start();
   }
-  log( '#logs', "Clicked the start button" );
+  // log( '#logs', "Clicked the start button" );
 }
 
 //function executes when the Stop button is pushed.
@@ -57,7 +57,7 @@ function onStart() {
 
 //Add a callback to notify when camera access is allowed
 detector.addEventListener( "onWebcamConnectSuccess", function() {
-  log( '#logs', "Webcam access allowed" );
+  // log( '#logs', "Webcam access allowed" );
 } );
 
 //Add a callback to notify when camera access is denied
