@@ -3,7 +3,7 @@
 var divRoot = $( "#affdex_elements" )[ 0 ];
 var width = 320;
 var height = 240;
-var faceMode = affdex.FaceDetectorMode.LARGE_FACES;
+var faceMode = affdex.FaceDetectorMode.SMALL_FACES;
 //Construct a CameraDetector and specify the image width / height and face detector mode.
 var detector = new affdex.CameraDetector( divRoot, width, height, faceMode );
 
