@@ -1,0 +1,11 @@
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+#affdex_elements {
+  position: absolute;
+  top: 100vh - 480px;
+  left: 100vw -680px;
+}
