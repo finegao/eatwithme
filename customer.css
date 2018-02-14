@@ -11,6 +11,6 @@ html body {
 
 .aff {
   position: absolute;
-  top: 100vh - 240px;
-  left: 100vw - 3200px;
+  top: calc(100vh - 240px);
+  left: 0;
 }
