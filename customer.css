@@ -11,6 +11,6 @@ html body {
 
 #affdex_elements {
   position: absolute;
-  top: 100vh - 480px;
-  left: 100vw -680px;
+  top: 100vh - 240px;
+  left: 100vw - 3200px;
 }
