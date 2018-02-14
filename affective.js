@@ -17,7 +17,13 @@ detector.detectAllAppearance();
 detector.addEventListener( "onInitializeSuccess", function() {
   log( '#logs', "The detector reports initialized" );
   //Display canvas instead of video feed because we want to draw the feature points on it
-  $( "#face_video_canvas" ).css( "display", "block" );
+  var fvcStyle = {
+    display: "block",
+    width: "100 vw",
+    height: "100 vh"
+  };
+
+  $( "#face_video_canvas" ).css( fvcStyle );
   $( "#face_video" ).css( "display", "none" );
 } );
 
