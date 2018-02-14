@@ -8,22 +8,23 @@
   </head>
 
   <body>
+    <div class="wrapper">
+      <div id="affdex_elements" style="width:680px;height:480px;"></div>
 
-    <div class="col-md-8" id="affdex_elements" style="width:680px;height:480px;"></div>
-    <div class="col-md-4">
       <div style="height:25em;">
-        <strong>EMOTION TRACKING RESULTS</strong>
         <div id="results" style="word-wrap:break-word;"></div>
       </div>
 
       <div id="logs"></div>
+
+      <div>
+        <button id="start" onclick="onStart()">Start</button>
+        <button id="stop" onclick="onStop()">Stop</button>
+        <button id="reset" onclick="onReset()">Reset</button>
+      </div>
+
     </div>
 
-    <div>
-      <button id="start" onclick="onStart()">Start</button>
-      <button id="stop" onclick="onStop()">Stop</button>
-      <button id="reset" onclick="onReset()">Reset</button>
-    </div>
     <script type="text/javascript" src="affective.js">
 
 
