@@ -9,7 +9,7 @@ html body {
   background-color: red;
 }
 
-.aff {
+#affdex_elements {
   position: absolute;
   top: calc(100vh - 240px);
   left: 0;
