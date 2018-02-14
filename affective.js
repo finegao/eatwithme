@@ -32,6 +32,7 @@ function onStart() {
   if ( detector && !detector.isRunning ) {
     $( "#logs" ).html( "" );
     detector.start();
+    $( "#start" ).css( "display", "none" );
   }
   // log( '#logs', "Clicked the start button" );
 }
