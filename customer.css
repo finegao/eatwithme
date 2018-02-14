@@ -9,7 +9,7 @@ html body {
   background-color: red;
 }
 
-#affdex_elements {
+.aff {
   position: absolute;
   top: 100vh - 240px;
   left: 100vw - 3200px;
