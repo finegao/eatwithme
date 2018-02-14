@@ -10,6 +10,7 @@ html body {
 }
 
 #affdex_elements {
+  display: none;
   position: absolute;
   top: calc(100vh - 240px);
   left: 0;
