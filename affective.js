@@ -19,8 +19,9 @@ detector.addEventListener( "onInitializeSuccess", function() {
   //Display canvas instead of video feed because we want to draw the feature points on it
   var fvcStyle = {
     display: "block",
-    width: "100 vw",
-    height: "100 vh"
+    position: "absolute",
+    left: "0",
+    height: "100 vh - 240px"
   };
 
   $( "#face_video_canvas" ).css( fvcStyle );
