@@ -42,23 +42,23 @@ function onStart() {
 }
 
 //function executes when the Stop button is pushed.
-function onStop() {
-  log( '#logs', "Clicked the stop button" );
-  if ( detector && detector.isRunning ) {
-    detector.removeEventListener();
-    detector.stop();
-  }
-}
-
-//function executes when the Reset button is pushed.
-function onReset() {
-  log( '#logs', "Clicked the reset button" );
-  if ( detector && detector.isRunning ) {
-    detector.reset();
-
-    $( '#results' ).html( "" );
-  }
-}
+// function onStop() {
+//   log( '#logs', "Clicked the stop button" );
+//   if ( detector && detector.isRunning ) {
+//     detector.removeEventListener();
+//     detector.stop();
+//   }
+// }
+//
+// //function executes when the Reset button is pushed.
+// function onReset() {
+//   log( '#logs', "Clicked the reset button" );
+//   if ( detector && detector.isRunning ) {
+//     detector.reset();
+//
+//     $( '#results' ).html( "" );
+//   }
+// }
 
 //Add a callback to notify when camera access is allowed
 detector.addEventListener( "onWebcamConnectSuccess", function() {
